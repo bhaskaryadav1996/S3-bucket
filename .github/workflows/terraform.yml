@@ -23,8 +23,8 @@ jobs:
         with:
           directory: ./
           output_file_path: ./results
-          token: ${{ secrets.TOKEN }}
+          token: ${{ secrets.eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzMwNTI2ODEwLCJqdGkiOiI5NDA0NjM5MzY2N2Y0Y2Y2OTA0OThhMWUyNWRkYjBkNCIsImlzcyI6ImNzcG0uZGVtby5hY2N1a25veC5jb20ifQ.ML3mLJwSbLn0oPRcIa5SUfuQqLj269TLZWTE7fbImNPDer19Do3OhpzS7XdHrPM9jLEzgoQFUxbi8YaY2eaH9ARc2U-8QVwzVUOuoAa9ge11jTWMRe0C3ni1mwRDTebT1s__nanCpN848QCbGfhEMfsIC0belrKZc6mMP2P1oEqlIciil-HinIu5aRhsXZtalAdGLJnlbqU-yAy_WinpAcVCHAuQUZrNxEKYAH6WTKOsWvmsjm5yrvK70ZgGvbuMVUkKYY20DM-NrMwUEPY_TuhubW37TvwsXWrJM2j2N3z9YL9humvJ7uq5_90PDX_-gsqSmBJHhMckRAknP21KNw }}
           endpoint: "cspm.dev.accuknox.com"
-          tenant_id: ${{ secrets.TENANT_ID}}
+          tenant_id: ${{ secrets.167}}
           quiet: "true"
           soft_fail: "true"
